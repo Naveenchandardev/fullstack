@@ -6,13 +6,14 @@ import './App.css'
 import Home from "./Home";
 import ShowName from "./tasks/ShowName";
 import ShowPassword from "./tasks/ShowPassword";
+import Todo from "./tasks/Todo";
 
 
 function App() {
   return (
     <div>
  
-      <ShowPassword />
+      <Todo />
     </div>
   );
 }
